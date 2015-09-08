@@ -1,0 +1,6 @@
+# Abstract #
+GRASS GIS is one of the historical Opensource GIS package, which has powerful spatial analysis functions. However, It requires great care to implement further analytical methods developed in the fields of mathematics, biology, physics or statistics because the GRASS GIS is specialized in spatial analysis. We need to develop analytical methods from scratch if we want to implement cutting edge clustering methods or Elliptic Foruier transform. In contrary, R, one of the popular opensource packages for statistics and numerical analysis, provides various kinds of analytical methods, but it has some troubles in handling spatial data.
+
+GRASS GIS, addtionally, wouldn't be the adequate tool for data management. It doesn't fully support the functions of current Database Management System(DBMS) functions such as XML columns, array columns and spatial extension. These functions are essential when we need to implement application schemas, which defined in ISO 19109. PostgreSQL fulfills these requirements in terms of data management, but it doesn't have advanced analytical functions as GRASS GIS and R.
+
+It's too difficult to find perfect GIS. So, we attempt to use these three tools in combination via Python scripts. This project includes technical documents. Please check our wiki(http://code.google.com/p/postgis-grass-r-py/wiki/WikiHome?tm=6).
